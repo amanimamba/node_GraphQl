@@ -1,5 +1,7 @@
-const User = require('../models/user');
+
 const Publication = require('../models/publication');
+const User = require('../models/user');
+
 
 const userResolvers = {
   Query: {
