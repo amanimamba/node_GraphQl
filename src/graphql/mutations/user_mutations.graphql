@@ -1,0 +1,5 @@
+extend type Mutation {
+  createUser(nom: String!, email: String!): User!
+  updateUser(id: ID!, nom: String, email: String): User
+  deleteUser(id: ID!): ID
+}

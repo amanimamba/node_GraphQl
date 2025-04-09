@@ -1,0 +1,7 @@
+type Publication {
+  id: ID!
+  titre: String!
+  contenu: String!
+  auteur: User!
+  auteurId: ID!
+}

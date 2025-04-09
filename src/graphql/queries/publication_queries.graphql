@@ -1,0 +1,5 @@
+extend type Query {
+  getPublication(id: ID!): Publication
+  getAllPublications: [Publication!]!
+  getPublicationsByAuthor(auteurId: ID!): [Publication!]!
+}

@@ -1,0 +1,6 @@
+type User {
+  id: ID!
+  nom: String!
+  email: String!
+  publications: [Publication!]!
+}

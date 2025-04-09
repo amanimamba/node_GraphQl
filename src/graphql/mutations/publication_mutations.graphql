@@ -1,0 +1,5 @@
+extend type Mutation {
+  createPublication(titre: String!, contenu: String!, auteurId: ID!): Publication!
+  updatePublication(id: ID!, titre: String, contenu: String): Publication
+  deletePublication(id: ID!): ID
+}

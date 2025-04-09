@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "your_mysql_username",
+    "password": "your_mysql_password",
+    "database": "graphql_db",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "your_test_mysql_username",
+    "password": "your_test_mysql_password",
+    "database": "graphql_test_db",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": process.env.DB_USERNAME,
+    "password": process.env.DB_PASSWORD,
+    "database": process.env.DB_NAME,
+    "host": process.env.DB_HOST,
+    "dialect": "mysql"
+  }
+}

@@ -1,0 +1,19 @@
+type Query {
+  _empty: String # Nécessaire si vous n'avez pas de champs Query directement définis ici
+}
+
+type Mutation {
+  _empty: String # Nécessaire si vous n'avez pas de champs Mutation directement définis ici
+}
+
+# Import des types
+scalar ID
+scalar String
+type User
+type Publication
+
+# Import des requêtes
+extend type Query
+
+# Import des mutations
+extend type Mutation
